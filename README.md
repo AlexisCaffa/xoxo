@@ -5,7 +5,7 @@ My main (and only) goal was to make it as short as possible (both the rhythmic P
 The whole implementation fits in 259 characters (so it fits in a twit... of 280 chars).  
 Here's an expanded version:
 
-```
+``` supercollider
 this.preProcessor = PreProcessor.new.startDelimiter_("*:").endDelimiter_(":*");
 x = (
   lang: \xoxo,
